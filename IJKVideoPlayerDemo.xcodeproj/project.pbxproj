@@ -15,7 +15,6 @@
 		84992CA21E2E08450015CEC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84992CA01E2E08450015CEC6 /* LaunchScreen.storyboard */; };
 		84992CAD1E2E08460015CEC6 /* IJKVideoPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992CAC1E2E08460015CEC6 /* IJKVideoPlayerDemoTests.m */; };
 		84992CB81E2E08460015CEC6 /* IJKVideoPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992CB71E2E08460015CEC6 /* IJKVideoPlayerDemoUITests.m */; };
-		84992CD21E2F054A0015CEC6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992CD11E2F054A0015CEC6 /* IJKMediaFramework.framework */; };
 		84992CD41E2F0C690015CEC6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992CD31E2F0C690015CEC6 /* AudioToolbox.framework */; };
 		84992CD61E2F0C710015CEC6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992CD51E2F0C710015CEC6 /* AVFoundation.framework */; };
 		84992CD81E2F0C780015CEC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992CD71E2F0C780015CEC6 /* CoreGraphics.framework */; };
@@ -32,6 +31,7 @@
 		84992CF91E309D3C0015CEC6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992CF81E309D3C0015CEC6 /* MainViewController.m */; };
 		84992CFF1E3483D00015CEC6 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992CFD1E3483D00015CEC6 /* MainTableViewCell.m */; };
 		84992D001E3483D00015CEC6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992CFE1E3483D00015CEC6 /* MainTableViewCell.xib */; };
+		84992D021E35A5950015CEC6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992D011E35A5950015CEC6 /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,6 @@
 		84992CB31E2E08460015CEC6 /* IJKVideoPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IJKVideoPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84992CB71E2E08460015CEC6 /* IJKVideoPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJKVideoPlayerDemoUITests.m; sourceTree = "<group>"; };
 		84992CB91E2E08460015CEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84992CD11E2F054A0015CEC6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		84992CD31E2F0C690015CEC6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		84992CD51E2F0C710015CEC6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84992CD71E2F0C780015CEC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +86,7 @@
 		84992CFC1E3483D00015CEC6 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		84992CFD1E3483D00015CEC6 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		84992CFE1E3483D00015CEC6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		84992D011E35A5950015CEC6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = IJKVideoPlayerDemo/Frameworks/IJKMediaFramework.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				84992CD81E2F0C780015CEC6 /* CoreGraphics.framework in Frameworks */,
 				84992CD61E2F0C710015CEC6 /* AVFoundation.framework in Frameworks */,
 				84992CD41E2F0C690015CEC6 /* AudioToolbox.framework in Frameworks */,
-				84992CD21E2F054A0015CEC6 /* IJKMediaFramework.framework in Frameworks */,
+				84992D021E35A5950015CEC6 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +195,7 @@
 		84992CD01E2F05360015CEC6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84992D011E35A5950015CEC6 /* IJKMediaFramework.framework */,
 				84992CEB1E2F0CD00015CEC6 /* VideoToolbox.framework */,
 				84992CE91E2F0CC70015CEC6 /* UIKit.framework */,
 				84992CE71E2F0CBF0015CEC6 /* QuartzCore.framework */,
@@ -208,7 +209,6 @@
 				84992CD71E2F0C780015CEC6 /* CoreGraphics.framework */,
 				84992CD51E2F0C710015CEC6 /* AVFoundation.framework */,
 				84992CD31E2F0C690015CEC6 /* AudioToolbox.framework */,
-				84992CD11E2F054A0015CEC6 /* IJKMediaFramework.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -528,6 +528,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/IJKVideoPlayerDemo/Frameworks",
 				);
 				INFOPLIST_FILE = IJKVideoPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -545,6 +546,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
+					"$(PROJECT_DIR)/IJKVideoPlayerDemo/Frameworks",
 				);
 				INFOPLIST_FILE = IJKVideoPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -623,6 +625,7 @@
 				84992CBE1E2E08460015CEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84992CBF1E2E08460015CEC6 /* Build configuration list for PBXNativeTarget "IJKVideoPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +634,7 @@
 				84992CC11E2E08460015CEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84992CC21E2E08460015CEC6 /* Build configuration list for PBXNativeTarget "IJKVideoPlayerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +643,7 @@
 				84992CC41E2E08460015CEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
