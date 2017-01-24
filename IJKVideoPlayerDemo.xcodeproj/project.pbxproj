@@ -32,6 +32,16 @@
 		84992CFF1E3483D00015CEC6 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992CFD1E3483D00015CEC6 /* MainTableViewCell.m */; };
 		84992D001E3483D00015CEC6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992CFE1E3483D00015CEC6 /* MainTableViewCell.xib */; };
 		84992D021E35A5950015CEC6 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84992D011E35A5950015CEC6 /* IJKMediaFramework.framework */; };
+		84992D061E35DC0D0015CEC6 /* FXLocalFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992D041E35DC0D0015CEC6 /* FXLocalFolderViewController.m */; };
+		84992D071E35DC0D0015CEC6 /* FXLocalFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992D051E35DC0D0015CEC6 /* FXLocalFolderViewController.xib */; };
+		84992D0B1E35DC8D0015CEC6 /* FXPhotoAblumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992D091E35DC8D0015CEC6 /* FXPhotoAblumViewController.m */; };
+		84992D0C1E35DC8D0015CEC6 /* FXPhotoAblumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992D0A1E35DC8D0015CEC6 /* FXPhotoAblumViewController.xib */; };
+		84992D101E35DCF60015CEC6 /* FXInputUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992D0E1E35DCF60015CEC6 /* FXInputUrlViewController.m */; };
+		84992D111E35DCF60015CEC6 /* FXInputUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992D0F1E35DCF60015CEC6 /* FXInputUrlViewController.xib */; };
+		84992D151E35DD300015CEC6 /* FXOpenQrCodrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992D131E35DD300015CEC6 /* FXOpenQrCodrViewController.m */; };
+		84992D161E35DD300015CEC6 /* FXOpenQrCodrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992D141E35DD300015CEC6 /* FXOpenQrCodrViewController.xib */; };
+		84992D1A1E35DD760015CEC6 /* FXOnLineVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84992D181E35DD760015CEC6 /* FXOnLineVideoViewController.m */; };
+		84992D1B1E35DD760015CEC6 /* FXOnLineVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84992D191E35DD760015CEC6 /* FXOnLineVideoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +97,21 @@
 		84992CFD1E3483D00015CEC6 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		84992CFE1E3483D00015CEC6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		84992D011E35A5950015CEC6 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = IJKVideoPlayerDemo/Frameworks/IJKMediaFramework.framework; sourceTree = SOURCE_ROOT; };
+		84992D031E35DC0D0015CEC6 /* FXLocalFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXLocalFolderViewController.h; sourceTree = "<group>"; };
+		84992D041E35DC0D0015CEC6 /* FXLocalFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXLocalFolderViewController.m; sourceTree = "<group>"; };
+		84992D051E35DC0D0015CEC6 /* FXLocalFolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXLocalFolderViewController.xib; sourceTree = "<group>"; };
+		84992D081E35DC8D0015CEC6 /* FXPhotoAblumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPhotoAblumViewController.h; sourceTree = "<group>"; };
+		84992D091E35DC8D0015CEC6 /* FXPhotoAblumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPhotoAblumViewController.m; sourceTree = "<group>"; };
+		84992D0A1E35DC8D0015CEC6 /* FXPhotoAblumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXPhotoAblumViewController.xib; sourceTree = "<group>"; };
+		84992D0D1E35DCF60015CEC6 /* FXInputUrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXInputUrlViewController.h; sourceTree = "<group>"; };
+		84992D0E1E35DCF60015CEC6 /* FXInputUrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXInputUrlViewController.m; sourceTree = "<group>"; };
+		84992D0F1E35DCF60015CEC6 /* FXInputUrlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXInputUrlViewController.xib; sourceTree = "<group>"; };
+		84992D121E35DD300015CEC6 /* FXOpenQrCodrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXOpenQrCodrViewController.h; sourceTree = "<group>"; };
+		84992D131E35DD300015CEC6 /* FXOpenQrCodrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXOpenQrCodrViewController.m; sourceTree = "<group>"; };
+		84992D141E35DD300015CEC6 /* FXOpenQrCodrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXOpenQrCodrViewController.xib; sourceTree = "<group>"; };
+		84992D171E35DD760015CEC6 /* FXOnLineVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXOnLineVideoViewController.h; sourceTree = "<group>"; };
+		84992D181E35DD760015CEC6 /* FXOnLineVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXOnLineVideoViewController.m; sourceTree = "<group>"; };
+		84992D191E35DD760015CEC6 /* FXOnLineVideoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FXOnLineVideoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +244,21 @@
 				84992CF71E309D3C0015CEC6 /* MainViewController.h */,
 				84992CF81E309D3C0015CEC6 /* MainViewController.m */,
 				84992C9B1E2E08450015CEC6 /* Main.storyboard */,
+				84992D031E35DC0D0015CEC6 /* FXLocalFolderViewController.h */,
+				84992D041E35DC0D0015CEC6 /* FXLocalFolderViewController.m */,
+				84992D051E35DC0D0015CEC6 /* FXLocalFolderViewController.xib */,
+				84992D081E35DC8D0015CEC6 /* FXPhotoAblumViewController.h */,
+				84992D091E35DC8D0015CEC6 /* FXPhotoAblumViewController.m */,
+				84992D0A1E35DC8D0015CEC6 /* FXPhotoAblumViewController.xib */,
+				84992D0D1E35DCF60015CEC6 /* FXInputUrlViewController.h */,
+				84992D0E1E35DCF60015CEC6 /* FXInputUrlViewController.m */,
+				84992D0F1E35DCF60015CEC6 /* FXInputUrlViewController.xib */,
+				84992D121E35DD300015CEC6 /* FXOpenQrCodrViewController.h */,
+				84992D131E35DD300015CEC6 /* FXOpenQrCodrViewController.m */,
+				84992D141E35DD300015CEC6 /* FXOpenQrCodrViewController.xib */,
+				84992D171E35DD760015CEC6 /* FXOnLineVideoViewController.h */,
+				84992D181E35DD760015CEC6 /* FXOnLineVideoViewController.m */,
+				84992D191E35DD760015CEC6 /* FXOnLineVideoViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -343,8 +383,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84992CA21E2E08450015CEC6 /* LaunchScreen.storyboard in Resources */,
+				84992D161E35DD300015CEC6 /* FXOpenQrCodrViewController.xib in Resources */,
+				84992D1B1E35DD760015CEC6 /* FXOnLineVideoViewController.xib in Resources */,
+				84992D111E35DCF60015CEC6 /* FXInputUrlViewController.xib in Resources */,
+				84992D0C1E35DC8D0015CEC6 /* FXPhotoAblumViewController.xib in Resources */,
 				84992C9F1E2E08450015CEC6 /* Assets.xcassets in Resources */,
 				84992D001E3483D00015CEC6 /* MainTableViewCell.xib in Resources */,
+				84992D071E35DC0D0015CEC6 /* FXLocalFolderViewController.xib in Resources */,
 				84992C9D1E2E08450015CEC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,8 +418,13 @@
 				84992C9A1E2E08450015CEC6 /* ViewController.m in Sources */,
 				84992C971E2E08450015CEC6 /* AppDelegate.m in Sources */,
 				84992C941E2E08450015CEC6 /* main.m in Sources */,
+				84992D0B1E35DC8D0015CEC6 /* FXPhotoAblumViewController.m in Sources */,
+				84992D151E35DD300015CEC6 /* FXOpenQrCodrViewController.m in Sources */,
 				84992CF91E309D3C0015CEC6 /* MainViewController.m in Sources */,
+				84992D101E35DCF60015CEC6 /* FXInputUrlViewController.m in Sources */,
+				84992D061E35DC0D0015CEC6 /* FXLocalFolderViewController.m in Sources */,
 				84992CFF1E3483D00015CEC6 /* MainTableViewCell.m in Sources */,
+				84992D1A1E35DD760015CEC6 /* FXOnLineVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
